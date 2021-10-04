@@ -1,0 +1,138 @@
+@font-face {font-family: "human";
+            src: url("../fuentes/Human Nature - Demo.ttf")
+            format("truetype");
+            }
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+body {background-color:white;}
+
+#encabezado {background-color: red;
+             color:white;
+             text-align:center;
+             font-size:4rem;
+             font-family: "human";
+             }
+
+.cannolimg {align: center;
+            margin-left: 25%;
+            width: 65%;
+            }
+.cannoli:hover {width: 80%;
+                opacity: 60%;
+                }
+
+.subtitulo {font-family: 'Gemunu Libre', sans-serif;
+            background-color: red;
+            color: white;
+            text-align: center;
+            clear: both;}
+
+.parrafo {font-size: 0.9rem;
+          font-family: 'Halant', serif;
+          text-align: center;
+          margin-left: 1%;
+          margin-right: 1%;}
+
+.text {text-decoration-line:underline;}
+
+.video {text-decoration-line: underline;
+        text-align: center;}
+
+.listado {font-family:sans-serif;
+          font-size:0.9rem;}
+
+.recomendaciones:hover {color: white;}
+
+.tarantella {margin-left: 2%;}
+
+.tarantella::after {content: "La tarantela es un baile popular del sur italiano, cuyo origen se remonta a los colonos griegos que llegaron a Sicilia y al sur de la península Itálica. Es una danza de tempo muy rápido, con un compás 6/8, que se acelera progresivamente y que se suele acompañar de panderetas, palmas y castañuelas.";
+                    }
+
+.acerca {float: left;
+         width: 30%;}
+
+.nosotros {font-family: sans-serif;
+           font-size: 0.9rem;
+           margin-top: 2%;}
+
+.nosotros:hover {font-size: 1rem;
+                 color: green;}
+
+.somos {font-family: sans-serif;
+        font-size: 0.9rem;}
+
+.redessociales {float: left;
+                width: 30%;
+                margin-left: 2%;
+                margin-right: 2%;}
+
+.red {font-family: sans-serif;
+      font-size: 0.9rem;
+      margin-top: 2%;}
+
+.png {width: 10%;}
+
+.png:hover {width: 15%;
+            background-color: green;}
+
+.ubicacion {font-family: sans-serif;
+            font-size: 0.9rem;
+            margin-top: 2%;}
+
+.mapa {float: left;
+       width: 35%;
+       }
+
+.flotante {position: fixed;
+           top: 65%;
+           right: 0vh;
+           box-sizing: border-box;
+           }
+
+.flotante:hover {width: 20vh;}
+
+
+
+nav {color: green;
+     text-align: center;
+     font-family: verdana;
+     font-size: 1rem;
+     box-sizing: border-box;}
+
+nav a:hover {color: green;
+           font-family: sans-serif;
+           font-size: 1.5rem;}
+
+nav a:visited {color: red;}
+
+nav::before {content: "<RecetasSicilianas.com>";}
+
+header {clear:both;
+        box-sizing: border-box;}
+
+section {float: left;
+         width: 49%;
+         height: 112vh;
+         overflow: auto;
+         margin-right: 10%;
+         margin-left: 1%;
+         box-sizing: border-box;
+         }
+
+aside {background-color: green;
+       float:left;
+       width: 40%;
+       height: 110vh;
+       overflow: auto;
+       box-sizing: border-box;}
+
+footer {background-color: red;
+        clear: both;
+        padding-top: 1%;
+        padding-left: 2%;
+        padding-bottom: 1%;
+        height: 40vh;
+        box-sizing: border-box;
+        }
